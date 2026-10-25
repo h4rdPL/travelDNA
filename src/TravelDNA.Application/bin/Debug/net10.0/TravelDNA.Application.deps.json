@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "TravelDNA.Application/1.0.0": {
+        "dependencies": {
+          "TravelDNA.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TravelDNA.Application.dll": {}
+        }
+      },
+      "TravelDNA.Domain/1.0.0": {
+        "runtime": {
+          "TravelDNA.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TravelDNA.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TravelDNA.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

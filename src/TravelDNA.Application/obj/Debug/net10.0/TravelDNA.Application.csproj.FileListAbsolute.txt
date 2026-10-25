@@ -1,0 +1,15 @@
+D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Application\bin\Debug\net10.0\TravelDNA.Application.deps.json
+D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Application\bin\Debug\net10.0\TravelDNA.Application.dll
+D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Application\bin\Debug\net10.0\TravelDNA.Application.pdb
+D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Application\bin\Debug\net10.0\TravelDNA.Domain.dll
+D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Application\bin\Debug\net10.0\TravelDNA.Domain.pdb
+D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Application\obj\Debug\net10.0\TravelDNA.Application.csproj.AssemblyReference.cache
+D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Application\obj\Debug\net10.0\TravelDNA.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Application\obj\Debug\net10.0\TravelDNA.Application.AssemblyInfoInputs.cache
+D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Application\obj\Debug\net10.0\TravelDNA.Application.AssemblyInfo.cs
+D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Application\obj\Debug\net10.0\TravelDNA.Application.csproj.CoreCompileInputs.cache
+D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Application\obj\Debug\net10.0\TravelDN.7C8DC048.Up2Date
+D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Application\obj\Debug\net10.0\TravelDNA.Application.dll
+D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Application\obj\Debug\net10.0\refint\TravelDNA.Application.dll
+D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Application\obj\Debug\net10.0\TravelDNA.Application.pdb
+D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Application\obj\Debug\net10.0\ref\TravelDNA.Application.dll
