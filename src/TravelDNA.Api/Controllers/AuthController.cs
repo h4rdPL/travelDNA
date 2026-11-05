@@ -45,8 +45,6 @@ public sealed class AuthController : ControllerBase
         }
         catch (DbUpdateException)
         {
-            // Covers a duplicate detected by a database unique
-            // constraint during concurrent registrations.
             return Conflict(new
             {
                 message = "Email or username is already registered."

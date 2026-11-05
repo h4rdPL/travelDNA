@@ -2,12 +2,20 @@ using System.ComponentModel.DataAnnotations;
 
 namespace TravelDNA.Api.Contracts.Auth;
 
-public sealed record RegisterRequest(
-    [property: Required, EmailAddress, MaxLength(254)]
-    string Email,
+public sealed class RegisterRequest
+{
+    [Required]
+    [EmailAddress]
+    [MaxLength(254)]
+    public string Email { get; init; } = string.Empty;
 
-    [property: Required, MinLength(3), MaxLength(30)]
-    string Username,
+    [Required]
+    [MinLength(3)]
+    [MaxLength(30)]
+    public string Username { get; init; } = string.Empty;
 
-    [property: Required, MinLength(12), MaxLength(128)]
-    string Password);
+    [Required]
+    [MinLength(3)]
+    [MaxLength(128)]
+    public string Password { get; init; } = string.Empty;
+}

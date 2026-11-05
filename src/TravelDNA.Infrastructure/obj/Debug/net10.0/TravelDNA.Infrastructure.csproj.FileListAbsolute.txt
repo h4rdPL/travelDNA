@@ -1,4 +1,5 @@
 D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Infrastructure\bin\Debug\net10.0\TravelDNA.Infrastructure.deps.json
+D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Infrastructure\bin\Debug\net10.0\TravelDNA.Infrastructure.runtimeconfig.json
 D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Infrastructure\bin\Debug\net10.0\TravelDNA.Infrastructure.dll
 D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Infrastructure\bin\Debug\net10.0\TravelDNA.Infrastructure.pdb
 D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Infrastructure\bin\Debug\net10.0\TravelDNA.Application.dll
@@ -15,4 +16,5 @@ D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Infrastructur
 D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Infrastructure\obj\Debug\net10.0\TravelDNA.Infrastructure.dll
 D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Infrastructure\obj\Debug\net10.0\refint\TravelDNA.Infrastructure.dll
 D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Infrastructure\obj\Debug\net10.0\TravelDNA.Infrastructure.pdb
+D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Infrastructure\obj\Debug\net10.0\TravelDNA.Infrastructure.genruntimeconfig.cache
 D:\_programowanie\dotNET\portfolioProjects\travelDNA\src\TravelDNA.Infrastructure\obj\Debug\net10.0\ref\TravelDNA.Infrastructure.dll

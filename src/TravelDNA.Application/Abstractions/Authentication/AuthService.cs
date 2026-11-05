@@ -77,9 +77,6 @@ public sealed class AuthService
         _users.Add(user);
         _credentials.Add(user.Id, passwordHash);
 
-        // Both records are persisted in one SaveChanges operation.
-        // Database unique constraints remain the final protection
-        // against concurrent duplicate registrations.
         await _unitOfWork.SaveChangesAsync(cancellationToken);
 
         return new AuthResponse(

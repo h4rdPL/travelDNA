@@ -1,4 +1,7 @@
 using Scalar.AspNetCore;
+using TravelDNA.Application.Authentication;
+using TravelDNA.Infrastructure;
+using TravelDNA.Infrastructure.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,6 +9,9 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 builder.Services.AddHealthChecks();
 builder.Services.AddProblemDetails();
+
+builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddScoped<AuthService>();
 
 builder.Services.AddCors(options =>
 {
@@ -43,6 +49,8 @@ app.UseAuthorization();
 
 app.MapControllers();
 app.MapHealthChecks("/health");
+
+await DatabaseInitializer.InitializeAsync(app.Services);
 
 app.Run();
 
