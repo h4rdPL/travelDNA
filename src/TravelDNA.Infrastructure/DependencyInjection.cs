@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using TravelDNA.Api.Services;
 using TravelDNA.Application.Abstractions.Authentication;
 using TravelDNA.Application.Abstractions.Persistence;
 using TravelDNA.Infrastructure.Authentication;
@@ -29,7 +30,7 @@ public static class DependencyInjection
         services.AddScoped<IUnitOfWork, UnitOfWork>();
         services.AddScoped<IPasswordHasher, PasswordHasher>();
         services.AddScoped<ITokenService, TokenService>();
-
+        services.AddHttpClient<GeoBoundariesClient>();
         return services;
     }
 }
